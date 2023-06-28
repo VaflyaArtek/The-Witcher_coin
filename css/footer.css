@@ -1,0 +1,25 @@
+footer {
+    background: linear-gradient(to bottom, rgba(0, 128, 0, 0.5), rgba(0, 0, 0, 0.8));
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-copyright {
+    margin-right: 10px;
+}
+
+.footer-links a {
+    margin-left: 10px;
+
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

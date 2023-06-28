@@ -22,7 +22,6 @@
 
 .header-left,
 .header-right{
-    /* max-height: 70vh; */
     max-width: 40%;
 }
 
@@ -32,12 +31,10 @@
     margin-top: 100px;
     text-align: center;
     font-weight: 600;
+    
 }
 
 .header__img{
     margin-right: 40px;
 }
 
-.danya{
-    margin-bottom: 1000px;
-}

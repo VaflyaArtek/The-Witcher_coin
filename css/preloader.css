@@ -1,5 +1,5 @@
 .preloader {
-    min-height: 100vh;
+    height: auto;
     background-image: url(../img/background-preloader.jpg);
     background-repeat: no-repeat;
     display: flex;
@@ -7,8 +7,15 @@
     justify-content: space-between; 
     padding: 20px;
     background-size: cover;
-    overflow: hidden;
+    overflow: auto;
+    min-height: 100vh;
 }
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .no-scroll {
     overflow: hidden;
@@ -125,9 +132,11 @@ img {
     background-color: #696175;
 }
 
-.content-wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+@media screen and (max-height: 870px) {
+    .preloader__socials-wrap {
+        margin-top: 50px;
+    }
+    .social-menu {
+        margin-top: 50px;
+    }
 }
-
