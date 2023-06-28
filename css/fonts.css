@@ -1,0 +1,8 @@
+@font-face {
+    src: url(../fonts/Chronicles_font.ttf);
+    font-family: Mason Chronicles;
+}
+
+body{
+    font-family: Mason Chronicles;
+}
