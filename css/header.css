@@ -17,15 +17,7 @@
 }
 
 
-@media screen and (max-width: 767px) {
-    .background-video {
-        background: linear-gradient(to right, #32CD32, #006400);;
-    }
 
-    #bgVideo {
-        display: none;  
-    }
-}
 
 .header__title {
     margin-top: 30px;
