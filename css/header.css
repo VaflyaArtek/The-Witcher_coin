@@ -15,26 +15,25 @@
 
 
 
-.header__title{
+.header__title {
     margin-top: 30px;
     max-height: 20vh;
 }
 
 .header-left,
-.header-right{
+.header-right {
     max-width: 40%;
 }
 
 
-.header-text{
+.header-text {
     font-size: 33px;
     margin-top: 100px;
     text-align: center;
     font-weight: 600;
-    
+
 }
 
-.header__img{
+.header__img {
     margin-right: 40px;
 }
-

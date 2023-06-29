@@ -2,36 +2,23 @@
     height: auto;
     background-image: url(../img/background-preloader.jpg);
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
     padding: 20px;
     background-size: cover;
-    overflow: auto;
     min-height: 100vh;
+    overflow: auto;
 }
 
-.content-wrapper {
+.preloader__hero {
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
-}
-
-
-.no-scroll {
-    overflow: hidden;
-}
-
-img {
-    margin: auto;
-}
-
-.preloader__hero{
-    flex-grow: 1;
+    justify-content: center;
+    overflow: auto;
 }
 
 .preloader__witcher {
     width: 200px;
-    
+
 }
 
 .preloader__title {
@@ -49,10 +36,9 @@ img {
     justify-content: center;
     font-size: 70px;
     font-weight: 600;
-    
     border-radius: 50%;
-    width: 150px;  
-    height: 150px;  
+    width: 150px;
+    height: 150px;
     align-items: center;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.7);
@@ -60,24 +46,56 @@ img {
 }
 
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
-  
-  .shake:hover {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.shake:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
-  }
-  
+}
+
 
 .social-menu {
     text-align: center;
@@ -132,10 +150,15 @@ img {
     background-color: #696175;
 }
 
+.preloader__socials-wrap {
+    margin-top: auto;
+}
+
 @media screen and (max-height: 870px) {
     .preloader__socials-wrap {
         margin-top: 50px;
     }
+
     .social-menu {
         margin-top: 50px;
     }

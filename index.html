@@ -11,25 +11,33 @@
 </head>
 
 <body>
-    <audio id="music" src="music/Dan_Vasc_-_Toss_a_Coin_to_Your_Witcher_(musmore.com).mp3" loop></audio>
-
+    <audio id="music" src="music/Dan_Vasc_-_Toss_a_Coin_to_Your_Witcher_(musmore.com).mp" loop></audio>
     <section id="preloaderSection" class="preloader">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <li>
+                        <h2 class="burger__title">The Witcher Socials</h2>
+                    </li>
+                    <a href="https://t.me/thewitcherportal" target="_blank">
+                        <li>Twitter</li>
+                    </a>
+                    <a href="https://twitter.com/TheWitcherBSC" target="_blank">
+                        <li>Telegram</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
         <div class="preloader__hero">
             <div class="preloader__img-wrap">
                 <img class="preloader__witcher" src="img/preloader-witcher.png" alt="Face Wither">
                 <img class="preloader__title" src="img/preloader-title.png" alt="The Witcher">
             </div>
             <a id="musicButton" class="preloader__subtitle shake" href="#">GO</a>
-        </div>
-        <div class="preloader__socials-wrap">
-            <div class="preloader__socials social-menu">
-                <ul>
-                    <li><a target="_blank" href="https://t.me/thewitcherportal" title="Portal"><i
-                                class="fa fa-brands fa-telegram" style="color: #80768f;"></i></a></li>
-                    <li><a target="_blank" href="https://twitter.com/TheWitcherBSC" title="Twitter"><i
-                                class="fa fa-brands fa-twitter" style="color: #80768f;"></i></a></li>
-                </ul>
-            </div>
         </div>
     </section>
     <div class="background-video">
