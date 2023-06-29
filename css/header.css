@@ -34,11 +34,7 @@
 /* For smaller screens, we will show the GIF instead */
 @media screen and (max-width: 767px) {
     .background-video {
-        background: url('../img/background-video/background.png') no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        background: linear-gradient(to right, #32CD32, #006400);;
     }
 
     #bgVideo {
