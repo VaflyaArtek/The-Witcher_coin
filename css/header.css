@@ -16,7 +16,7 @@
     object-fit: cover;
 }
 
-/* For smaller screens, we will show the GIF instead */
+
 @media screen and (max-width: 767px) {
     .background-video {
         background: linear-gradient(to right, #32CD32, #006400);;
@@ -27,9 +27,6 @@
     }
 }
 
-
-
-
 .header__title {
     margin-top: 30px;
     max-height: 20vh;
@@ -39,7 +36,6 @@
 .header-right {
     max-width: 40%;
 }
-
 
 .header-text {
     font-size: 33px;
